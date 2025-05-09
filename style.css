@@ -1,3 +1,33 @@
-h4{
-    color:red;
+body{
+    margin:20px;
+}
+header{
+   
+    padding: 20px;
+   
+}
+.aybolitnavbar{
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.texts{
+    display: flex;
+    gap:70px;
+    padding:20px;
+}
+.texts_item{
+    font-weight:700;
+    font-size: 20px;
+    color:rgba(195, 185, 181, 1);
+}
+.location{
+    display: flex;
+    gap: 20px;
+    p{
+        font-size:20px;
+        font-weight: 700;
+        color:rgba(255, 197, 158, 1);
+        margin-top:40px;
+    }
 }
