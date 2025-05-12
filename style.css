@@ -1,5 +1,6 @@
-body{
+.container{
     margin:20px;
+
 }
 header{
    
@@ -30,4 +31,47 @@ header{
         color:rgba(255, 197, 158, 1);
         margin-top:40px;
     }
+}
+
+#intro{
+    margin-top:180px;
+}
+.introall{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+.itexts{
+    margin-left:400px;
+    h1{
+        font-size:80px;
+        color:rgba(8, 6, 6, 1);
+        font-weight: 400;
+    }
+}
+.buyurtma{
+    width:284px;
+    height: 64px;
+    border-radius:35px;
+    border-color: rgba(255, 197, 158, 1);
+    background-color:rgba(255, 197, 158, 1);
+    border-style: none;
+    font-weight: 700;
+    font-size:20px;
+    color:rgba(255, 255, 255, 1);
+}
+
+.socials{
+    width: 310px;
+    height: 40px;
+    display: flex;
+    gap:90px;
+    margin-top:120px;
+}
+.inst{
+     
+          width:800px;
+          height:800px;
+    
 }
